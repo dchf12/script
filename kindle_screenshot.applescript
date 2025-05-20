@@ -72,6 +72,6 @@ on run argv
         end if
 
         tell application "System Events" to key code pageKeyCode
-        delay 1 -- ページ描画待ち（環境で調整）
+        delay 1.5 -- ページ描画待ち（環境で調整）
     end repeat
 end run
